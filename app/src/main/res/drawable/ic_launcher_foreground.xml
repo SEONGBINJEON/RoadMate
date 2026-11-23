@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 로드메이트 아이콘: 운전대(동승자) + 초승달(휴식) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 운전대 테두리 -->
+    <path
+        android:pathData="M54,34 A22,22 0 1,1 53.99,34 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6" />
+    <!-- 운전대 살 -->
+    <path
+        android:pathData="M33,56 L49,56 M59,56 L75,56 M54,61 L54,77"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round" />
+    <!-- 가운데 -->
+    <path
+        android:pathData="M54,51 A5,5 0 1,1 53.99,51 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- 초승달 -->
+    <path
+        android:pathData="M68,28 A10,10 0 1,0 78,41 A8,8 0 1,1 68,28 Z"
+        android:fillColor="#FFD45C" />
+</vector>
